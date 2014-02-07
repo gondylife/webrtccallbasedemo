@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8" />
+            <title>WebRTC::Demo</title>
+            <link href="stylesheets/styles.css" rel="stylesheet" type="text/css" />
+
+        </head>
+        <body>
+         <div id="topWrapper">
+          <div id="up"><div id="upLeft"><input type="text" name="connectId" id="connectId" value="1234567890"/></div><div id="upRight"><button id="connectButton"><img src="/images/connect.png" width="20px" height="20px" title="Connect" style="cursor: pointer;" /></button></div></div>
+         </div>
+         <div id="downWrapper">
+              <button id="callButton"><img src="/images/call.png" width="20px" height="20px" title="Call" style="cursor: pointer;" /></button>
+              <button id="pickButton"><img src="/images/pick.png" width="20px" height="20px" title="Pick" style="cursor: pointer;" /></button>
+              <span>00:00:00</span>
+              <button id="hangupButton"><img src="/images/hangup.png" width="20px" height="20px" title="Hang Up" style="cursor: pointer;" /></button>
+              <button id="exitButton"><img src="/images/disconnect.png" width="20px" height="20px" title="Disconnect" style="cursor: pointer;" /></button>
+         </div>
+         <div id="summaryWrapper"><span id="summary"><u>Call Summary</u></span></div>
+
+         <audio id="remote-audio"></audio>
+         <audio id="local-audio"></audio>
+
+            <!--<script type="text/javascript" src="javascripts/script.js"></script>-->
+            <script type="text/javascript" src="javascripts/jquery.js"></script>
+            <script type="text/javascript" src="javascripts/adapter.js"></script>
+            <script type="text/javascript" src='/socket.io/socket.io.js'></script>
+            <script type="text/javascript" src="javascripts/audioCall.js"></script>
+
+        </body>
+    </html>

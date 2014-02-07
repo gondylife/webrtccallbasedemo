@@ -1,0 +1,7 @@
+#topWrapper{border: 1px solid black; height: 32px; width: 230px; border-radius: 10px 0 0 0; background: #EEE;}
+#up{border-bottom: 1px solid black; height: 32px; width: 230px;}
+#upLeft{height: 32px; width: 189px; border-right: 1px solid black; float: left;}
+#downWrapper{border: 1px solid black; height: 34px; width: 230px; background: #EEE;}
+#summaryWrapper{border: 1px solid black; height: 150px; width: 230px; background: #EEE; border-radius: 0 0 10px 0;}
+#summary{font-family: 'EdmondsansMedium', 'Trebuchet MS', sans-serif; font-weight: bold;}
+#connectId{height: 26px; width: 185px; border-radius: 10px 0 0 0;}
